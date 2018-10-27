@@ -1,0 +1,167 @@
+    1  cd ./workspace 
+    2  mkdir nodesrvrs
+    3  cd nodesrvrs/
+    4  touch w3srvr.js
+    5  node w3srvr.js 
+    6  touch w3rescon.js
+    7  node w3rescon.js 
+    8  touch w3static.js
+    9  touch index.html
+   10  node w3static.js 
+   11  cd ..
+   12  git init
+   13  git add .
+   14  git commit -m "first commit"
+   15  git remote add origin git@github.com:alexnagatkin911/srvrs.git
+   16  git push -u origin master
+   17  touch 404.html
+   18  node w3static.js 
+   19  cd nodesrvrs/
+   20  node w3static.js 
+   21  cd ..
+   22  npm --version
+   23  nvm --version
+   24  mkdir nodeexp
+   25  cd nodeexp/
+   26  npm init
+   27  npm install express --save
+   28  touch index.js
+   29  node index.js
+   30  cd ./workspace/nodeexp 
+   31  node index.js
+   32  cd ./workspace/nodesrvrs 
+   33  node w3rescon.js 
+   34  node w3srvr.js 
+   35  node w3static.js 
+   36  cd ..
+   37  cd nodeexp/
+   38  node index.js
+   39  mkdir mvcexp
+   40  git init
+   41  cd mvcexp/
+   42  git init
+   43  cd ..
+   44  git init
+   45  git clone git@github.com:tutsplus/build-complete-website-expressjs.git mvcexp
+   46  cd app
+   47  cd mvcexp/
+   48  node app.js
+   49  ls
+   50  node --version
+   51  npm --version
+   52  express --version
+   53  npm-check
+   54  cd app/
+   55  npm install
+   56  npm audit fix
+   57  mongodb daemon
+   58  npm audit fix
+   59  node -v
+   60  nvm -v
+   61  nvm install --latest-npm
+   62  mongod --version
+   63  npm install mongodb --save
+   64  npm install -g node-gyp
+   65  npm install bson
+   66  npm run build
+   67  npm install kerberos
+   68  npm install -g kerberos
+   69  npm test
+   70  mongod --dbpath=/data --port 27017
+   71  cd ..
+   72  mongod --dbpath=/data --port 27017
+   73  cd app/
+   74  npm audit fix
+   75  cd ./..
+   76  cd ./
+   77  cd .
+   78  cd ..
+   79  pwd
+   80  nvm --version
+   81  cd ..
+   82  nvm --version
+   83  cd workspace/
+   84  cd nodeexp/
+   85  cd mvcexp/
+   86  cd app/
+   87  npm install
+   88  sudo npm install
+   89  npm install kerberos --save
+   90  npm install -g node-gyp
+   91  npm install kerberos --save
+   92  apt-get install libkrb5-dev
+   93  cd ..
+   94  apt-get install libkrb5-dev
+   95  cd /
+   96  apt-get install libkrb5-dev
+   97  pwd
+   98  ls
+   99  cd var/
+  100  cd lib/
+  101  ls
+  102  cd dpkg/
+  103  apt-get install libkrb5-dev
+  104  cd /
+  105  cd ./workspace/nodeexp/mvcexp 
+  106  sudo apt-get update
+  107  cd app/
+  108  npm install
+  109  sudo apt-get upgrade
+  110  apt-get install libkrb5-dev
+  111  sudo apt-get install libkrb5-dev
+  112  mongod daemon
+  113  npm install
+  114  mongod daemon
+  115  mongod --version
+  116  npm install mongodb --save
+  117  npm audit fix
+  118  npm fix --force
+  119  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+  120  echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+  121  sudo apt-get update
+  122  sudo apt-get install -y mongodb-org
+  123  sudo service mongod start
+  124  sudo mongod
+  125  sudp service mongod status
+  126  sudo systemctl enable mongod
+  127  sudo service mongod restart
+  128  sudo service mongod stop
+  129  sudo apt-get purge mongodb-org*
+  130  sudo rm -r /var/log/mongodb
+  131  sudo rm -r /var/lib/mongodb
+  132  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+  133  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+  134  sudo apt-get update
+  135  sudo apt-get install -y mongodb-org
+  136  sudo systemctl enable mongod
+  137  sudo service mongod restart
+  138  sudo service mongod stop
+  139  sudo apt-get purge mongodb-org*
+  140  sudo rm -r /var/log/mongodb 
+  141  sudo rm -r /var/lib/mongodb
+  142  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+  143  sudo apt-get update
+  144  sudo apt-get install -y mongodb-org
+  145  sudo service mongod start
+  146  sudo service mongod stop
+  147  mongod
+  148  sudo service mongod start
+  149  node app.js
+  150  npm install bson
+  151  npm audit fix
+  152  npm audit
+  153  npm install express
+  154  npm audit fix
+  155  node app.js
+  156  sudo service mongod start
+  157  node app.js
+  158  cd ..
+  159  git clone git@github.com:tutsplus/build-complete-website-expressjs.git newmvc
+  160  cd newmvc/
+  161  cd app/
+  162  npm install
+  163  sudo service mongod start
+  164  node app.js
+  165  history
+  166  history => history.txt
+  167  history > history.txt
